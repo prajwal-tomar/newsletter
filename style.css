@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.container1 {
+  min-height: 100vh;
+  background-color: hsl(234, 29%, 20%);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.newsletter {
+  border-radius: 2rem;
+  padding: 1rem;
+  min-height: 70vh;
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.newsletter ul {
+  list-style-image: url(./assets/images/icon-list.svg);
+}
+
+.btn-primary {
+  background-color: hsl(234, 29%, 20%);
+  border-color: hsl(234, 29%, 20%);
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: hsl(233, 12%, 27%);
+  border-color: hsl(233, 12%, 27%);
+}
